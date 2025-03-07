@@ -3,7 +3,19 @@ import styled from "styled-components";
 export const Title = styled.h1`
     color: green;
 `;
+export const Label = styled.label`
+  float: left;
+  width: 90px; 
+  margin-right: 1px;
+`;
 export const Input = styled.input`
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+`;
+export const Txt = styled.textarea`
   width: 50%;
   padding: 8px;
   margin-bottom: 16px;

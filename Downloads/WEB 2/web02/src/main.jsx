@@ -5,7 +5,7 @@ import { MyGlobalStyles } from './Styles/globalStyles'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-      <MainRoutes/>
-    <MyGlobalStyles />
+    {/* <MyGlobalStyles /> */}
+    <MainRoutes/>
   </StrictMode>,
 )
